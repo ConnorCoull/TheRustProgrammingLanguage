@@ -1,0 +1,1 @@
+C:\Users\conno\OneDrive\Documents\Personal\ Projects\Learning_RUST\TheRustProgrammingLanguage\projects\ownership\target\debug\ownership.exe: C:\Users\conno\OneDrive\Documents\Personal\ Projects\Learning_RUST\TheRustProgrammingLanguage\projects\ownership\src\main.rs
