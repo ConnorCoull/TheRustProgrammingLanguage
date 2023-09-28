@@ -61,13 +61,16 @@ enum State{
 
 fn your_quarter_is_from(coin: Coin)
 {
-    match coin {
-        Coin::Quarter(state) => 
-        {
-           println!("Your quarter is from {:?}!", state); 
-        }
-        _ => println!("This coin doesn't have an associated State.")
+    if let Coin::Quarter(state) = coin {
+        println!("Your quarter is from {:?}!", state);
     }
+    //match coin {
+    //    Coin::Quarter(state) => 
+    //    {
+    //       println!("Your quarter is from {:?}!", state); 
+    //    }
+    //    _ => println!("This coin doesn't have an associated State.")
+    //}
 }
 
 
