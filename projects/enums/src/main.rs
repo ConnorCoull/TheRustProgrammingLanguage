@@ -66,7 +66,7 @@ fn your_quarter_is_from(coin: Coin)
         {
            println!("Your quarter is from {:?}!", state); 
         }
-        other => println!("This coin doesn't have an associated State.")
+        _ => println!("This coin doesn't have an associated State.")
     }
 }
 
